@@ -1,0 +1,71 @@
+.main-panel {
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  padding: 25px 25px 50px 25px;
+  color: #181D31;
+  font-family: sans-serif !important;
+  overflow-y: auto;
+}
+
+.header-title {
+  text-align: left;
+}
+
+.content-panel {
+  margin: 15px 0px;
+}
+
+.table-link {
+  color: #1890ff;
+}
+
+.view-content {
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.view-field {
+  margin: 5px;
+}
+
+.view-field-label {
+  color:gray;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.view-field-value {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.ant-card-head-title {
+  font-weight: 600;
+}
+
+.ant-card {
+  border-radius: 10px;
+}
+
+.footer-panel{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  height: 100px;
+  padding: 0px 25px;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+}
+
+.form-panel button[type="button"]{
+  margin-right: 10px;
+}
+
+.form-panel .ant-form-item-label {
+  line-height: 0.5px;
+  font-weight: 400;
+  padding-bottom: 5px !important;
+}

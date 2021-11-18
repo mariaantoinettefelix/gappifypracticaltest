@@ -1,0 +1,81 @@
+.dashboard-main {
+    height: calc(100% - 150px);
+    margin: 50px;
+    color: #181D31;
+}
+
+.dashboard-main-header {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.dashboard-main-content{
+    display: flex;
+}
+
+.dashboard-content {
+    height: 345px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 20%);
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.left-panel {
+    width: 70%;
+}
+
+.right-panel {
+    width: 330px;
+}
+
+.user-details-panel-avatar {
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.user-details-panel-avatar-bg{
+    position: absolute;
+    width: 100%;
+    height: 137px;
+    background: #E6DDC4;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.user-details-panel-avatar .ant-avatar {
+    background: #678983;
+}
+
+.user-details-panel-details .name {
+    font-weight: 300;
+    padding-top: 10px;    
+}
+
+.user-details-panel-details .job-dscp {
+    font-weight: 400;
+    font-size: 14px;  
+    color: #6c7989;  
+}
+
+.avatar-main {
+    position: relative;
+}
+
+.time-widget {
+    background-color: #181D31;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: fantasy;
+    height: 100%;
+    border-radius: 20px;
+}
